@@ -12,3 +12,8 @@ body {
     margin:0 auto;
     padding: 20px;
 }
+header {
+   background-color: #0b1f3a;
+   color: #ffffff;
+   border-bottom: 3px solid #c9a227;
+}
