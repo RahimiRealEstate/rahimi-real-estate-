@@ -28,3 +28,13 @@ header {
     font-size: 18px;
     font-weight: 400;
 }
+button {
+    background-color: #c9a227;
+    color: #0b1f3a;
+    border: none;
+    padding: 12px 24px;
+    font-siza: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+}
