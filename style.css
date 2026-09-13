@@ -19,6 +19,7 @@ header {
 }
 main {
     padding: 40px 20px;
+    background-color: #f7f7f5;
 }
 .header-container h1 {
     margin: 0;
