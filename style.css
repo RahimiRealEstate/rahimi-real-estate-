@@ -47,3 +47,92 @@ button {
     max-width 1000px;
     margin: 0 auto;
 }
+
+/* stage 3-1 property search section */
+
+.search-section h2 {
+    margin: 0 0 10px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #0b1f3a;
+} 
+
+.search-section > p {
+    margin: 0 0 25px;
+    font-size: 16px;
+    color: #555555;
+}
+
+.search-box {
+    display: felx;
+    felx-wrap: wrap;
+    gap: 18px;
+    align-items: felx-end;
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.search-item {
+    felx: 1 1 180px;
+} 
+
+.search-item label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-wight: 600;
+    color: #0b1f3a;
+}
+
+.search-item select,
+.search-item input {
+    width: 100%;
+    height: 46px;
+    padding: 0 12px;
+    border: 1px solid #d6d6d6;
+    border-redius 6px;
+    background-color: #ffffff;
+    color: #333333;
+    font-family: "vazirmatn", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.search-item input:placeholder {
+    color: #999999;
+}
+
+.search-item select:focus,
+.search-item input:focus {
+    outline: none;
+    border-color: #c9a227;
+}
+
+.search-box button {
+    min-height: 46px;
+    padding: 0 24px;
+    white-space: nowrap;
+}
+
+/* mobile */
+
+@media (max-width: 700px) {
+    
+    .search-section h2 {
+        font-size: 24px;
+    }
+   
+    .search-section > p {
+        font-size: 15px;
+    }
+   
+    .search-box {
+        felx-direction: column;
+        align-items: stretch;
+        padding: 18px;
+    }
+   
+    .search-item {
+        width: 100%;
+    }
