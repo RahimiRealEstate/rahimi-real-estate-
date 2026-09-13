@@ -42,3 +42,8 @@ button {
     border-radius: 6px;
     cursor: pointer;
 }
+
+.search-section {
+    max-width 1000px;
+    margin: 0 auto;
+}
