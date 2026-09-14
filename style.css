@@ -136,4 +136,72 @@ button {
     .search-item {
         width: 100%;
     }
+}
+
+/* stage 3-2 - Buy / Rent */
+
+.buy-rent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.buy-rent h2 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    color: #0b1f3a;
+}
+
+.buy-rent p {
+    margin: 0 0 30px;
+    color: #555555;
+}
+
+.buy-rent-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.property-option {
+    flex: 1;
+    padding: 30px 24px;
+    border: 1px solid #e1e1e1;
+    border-radius: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.property-option h3 {
+    margin: 0 0 12px;
+    font-size: 22px
+    color: #0b1f3a;
+}
+
+.property-option p {
+    margin: 0 0 22px;
+    line-height: 1.8;
+    color: #555555;
+}
+
+.property-option button {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 8px;
+    background-color: #c9a227;
+    color: #0b1f3a
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .buy-rent-container {
+        flex-direction: column;
     }
+   
+    .property-option {
+        width: 100%;
+    }
+}
