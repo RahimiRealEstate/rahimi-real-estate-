@@ -205,3 +205,36 @@ button {
         width: 100%;
     }
 }
+
+/*stage 3-2 New card design */
+.property-option {
+    position: relative;
+    flex: 1;
+    min-height: 300px;
+    padding: 24px;
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.buy-option {
+    background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80");
+}
+
+.rent-option {
+    background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200q=80");
+}
+
+.property-option h3 {
+    margin: 0;
+    padding: 10px 22px;
+    border-radius: 8px;
+    background-color: rgba(11, 31, 58, 0.88);
+    color: #ffffff;
+    font-size: 22px;
+}
