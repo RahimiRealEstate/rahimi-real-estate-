@@ -64,10 +64,10 @@ button {
 }
 
 .search-box {
-    display: felx;
-    felx-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     gap: 18px;
-    align-items: felx-end;
+    align-items: flex-end;
     background-color: #ffffff;
     padding: 24px;
     border-radius: 10px;
@@ -75,14 +75,14 @@ button {
 }
 
 .search-item {
-    felx: 1 1 180px;
+    flex: 1 1 180px;
 } 
 
 .search-item label {
     display: block;
     margin-bottom: 8px;
     font-size: 14px;
-    font-wight: 600;
+    font-weight: 600;
     color: #0b1f3a;
 }
 
@@ -92,14 +92,14 @@ button {
     height: 46px;
     padding: 0 12px;
     border: 1px solid #d6d6d6;
-    border-redius 6px;
+    border-radius 6px;
     background-color: #ffffff;
     color: #333333;
     font-family: "vazirmatn", Arial, sans-serif;
     font-size: 14px;
 }
 
-.search-item input:placeholder {
+.search-item input::placeholder {
     color: #999999;
 }
 
@@ -128,7 +128,7 @@ button {
     }
    
     .search-box {
-        felx-direction: column;
+        flex-direction: column;
         align-items: stretch;
         padding: 18px;
     }
