@@ -153,7 +153,7 @@ button {
     color: #0b1f3a;
 }
 
-.buy-rent p {
+.buy-rent > p {
     margin: 0 0 30px;
     color: #555555;
 }
@@ -175,7 +175,7 @@ button {
 
 .property-option h3 {
     margin: 0 0 12px;
-    font-size: 22px
+    font-size: 22px;
     color: #0b1f3a;
 }
 
@@ -190,7 +190,7 @@ button {
     border: none;
     border-radius: 8px;
     background-color: #c9a227;
-    color: #0b1f3a
+    color: #0b1f3a;
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
