@@ -164,21 +164,6 @@ button {
     justify-content: center;
 }
 
-.property-option {
-    flex: 1;
-    padding: 30px 24px;
-    border: 1px solid #e1e1e1;
-    border-radius: 14px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
-}
-
-.property-option h3 {
-    margin: 0 0 12px;
-    font-size: 22px;
-    color: #0b1f3a;
-}
-
 .property-option p {
     margin: 0 0 22px;
     line-height: 1.8;
@@ -223,11 +208,11 @@ button {
 }
 
 .buy-option {
-    background-image: url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80");
+    background-image: url("https://upload.wikimedia.org/vikipedia/commons/5/57/3D_Rendering_of_Modern_Luxury_Villa_Exterior_with_Pool_jpg");
 }
 
 .rent-option {
-    background-image: url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80");
+    background-image: url("https://uplod.wikimedia.org/vikipedia/commons/1/1e/AIMCO_apartemnt_interior_jpg");
 }
 
 .property-option h3 {
