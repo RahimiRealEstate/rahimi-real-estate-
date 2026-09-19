@@ -223,3 +223,45 @@ button {
     color: #ffffff;
     font-size: 22px;
 }
+/* stage 3-3 - property Types */
+
+.property-types {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.property-types h2 {
+    margin: 0 0 12px;
+    font-size: 28px;
+    color: #0b1f3a;
+}
+
+.property-types > p {
+    margin: 0 0 30px;
+    color: #555555;
+}
+
+.property-types-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.property-type {
+    min-height: 140px;
+    padding: 25px 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.property-type h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #0b1f3a;
+}
