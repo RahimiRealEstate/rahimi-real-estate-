@@ -265,3 +265,40 @@ button {
     font-size: 20px;
     color: #0b1f3a;
 }
+/* stage 3-4 - Location Selection */
+
+.location-selection {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px 50px;
+} 
+
+.location-selection-box {
+    max-width: 700px;
+    min-height: 64px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.location-icon {
+    font-size: 22px;
+}
+
+.location-text {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0b1f3a;
+}
+
+.location-arrow {
+    font-size: 24px;
+    color: #c9a227;
+}
