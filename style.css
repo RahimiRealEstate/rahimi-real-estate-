@@ -277,13 +277,13 @@ button {
     max-width: 80%;
     min-height: 64px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 12px;
     background-color: #ffffff;
     border: 2px solid #c9a227;
     border-radius: 12px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 6px;
     cursor: pointer;
 }
 
@@ -300,6 +300,7 @@ button {
 }
 
 .location-arrow {
+    flex-shrink: 0;
     font-size: 24px;
     color: #c9a227;
 }
