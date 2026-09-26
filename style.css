@@ -305,3 +305,12 @@ button {
     color: #c9a227;
     transform: translateX(4px);
 }
+/* stage 3-5 - Property Map */
+
+#property-map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
