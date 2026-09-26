@@ -112,5 +112,13 @@
 </section>
     </main>
     
+    <script>
+        const map = L.map('property-map').setView([31.8974, 54.3569], 12);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+    </script>
+    
 </body>
 </html>
